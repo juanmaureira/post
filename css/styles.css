@@ -1,0 +1,84 @@
+body{
+    background:rgba(0,0,0,0.3);
+}
+
+header{
+    text-align: center;
+    font-size: 28px;
+    margin: 30px auto;
+    width: 79%;
+    font-weight: bold;
+    padding: 10px;
+    background-color: black;
+    color:white;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+option{
+    text-align: left;
+    margin-left: 10px;
+}
+
+select{
+    margin: 10px 30px auto;
+    height: 30px;
+    background:rgba(0,0,0,0.5);
+    color:rgba(255,255,255,0.8);
+    font-weight: bold;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+select:hover{
+    background:rgba(0,0,0,0.8);
+}
+
+tr{
+    border: 1px solid;
+    margin: 60px auto;
+    color: rgba(255,255,255,1);
+    background:rgba(0,0,0,0.5);
+}
+th{
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    color: rgba(255,255,255,1);
+    background:rgba(0,0,0,1);
+    text-transform: uppercase;
+}
+
+td{
+    border: 1px solid;
+    border-radius: 5px;
+    margin: auto;
+    padding: 10px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.container{
+    margin-top: 10px;
+}
+
+.box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 79%;
+    height: 50px;
+    margin: auto;
+}
+
+.table{
+    border: 1px solid rgba(255,255,255,0.8);
+    border-radius: 5px;
+    margin: 50px auto;
+    padding: 10px;
+    width: 80%;
+    background: rgba(0,0,125,0.1);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
